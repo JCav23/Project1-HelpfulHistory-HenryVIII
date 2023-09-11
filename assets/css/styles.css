@@ -5,3 +5,20 @@
     box-sizing: border-box;
 }
 
+
+/* use flex properties on body and main to keep footer at base of page */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Header Styling*/
+header, footer {
+    background-color: rgb(128, 0, 32);
+    color: rgb(196, 202, 208);
+}
