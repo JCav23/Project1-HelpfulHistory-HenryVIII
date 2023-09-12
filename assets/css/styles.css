@@ -38,11 +38,23 @@ header a {
 }
 
 #nav_menu li{
-    margin-bottom: 4px;
+    font-size: 110%;
+    margin-bottom: 2em;
 }
 
 .active {
     border-bottom: 2px solid rgb(196, 202, 208);
+}
+
+/* Navbar having dropdown functionality*/
+nav {
+    position: absolute;
+    background-color: rgb(128, 0, 32);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: inherit;
+    display: none;
 }
 
 /* Footer Styling*/
