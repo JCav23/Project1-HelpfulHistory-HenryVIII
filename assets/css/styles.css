@@ -22,10 +22,14 @@ main {
 /* Header Styling*/
 header {
     background-color: rgb(128, 0, 32);
+    position: fixed;
     color: rgb(196, 202, 208);
     padding: 0 1rem;
     z-index: 5;
     box-shadow: 0 5px 5px rgb(196, 202, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -55,6 +59,11 @@ nav {
     padding: 0 1rem;
     box-shadow: inherit;
     display: none;
+    top: 100px;
+}
+
+#nav-dropdown:checked~nav {
+    display: block;
 }
 
 /* Footer Styling*/
