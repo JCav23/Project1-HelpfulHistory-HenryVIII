@@ -22,6 +22,14 @@ main {
 header {
     background-color: rgb(128, 0, 32);
     color: rgb(196, 202, 208);
+    padding: 0 1rem;
+    z-index: 5;
+    box-shadow: 0 5px 5px rgb(196, 202, 208);
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Footer Styling*/
