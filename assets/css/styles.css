@@ -151,4 +151,10 @@ footer {
         margin-top: 80px;
     }
 
+    #title-overlay {
+        width: 400px;
+        margin: auto;
+        right: 40%;
+    }
+
 }
