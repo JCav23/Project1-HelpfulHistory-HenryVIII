@@ -76,9 +76,21 @@ h1 {
 }
 
 main {
+    /* Ensure main takes up surplus space so footer remains at bottom of page */
     flex: 1 0 auto;
+    /* Ensure header wont cover content */
     margin-top: 75px;
+    display: flex;
 }
+
+/* Hero Image */
+#hero {
+    width: 100%;
+    background: url(../images/henryVIII-hero.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+
+
 
 /* Footer Styling*/
 footer {
@@ -87,6 +99,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    /* Navbar downdown adjusted for larger screens*/
     nav {
         position: absolute;
         background-color: rgb(128, 0, 32);
