@@ -81,6 +81,7 @@ main {
     /* Ensure header wont cover content */
     margin-top: 75px;
     display: flex;
+    flex-direction: column;
     background-color: rgb(248, 244, 255);
 }
 
@@ -88,9 +89,9 @@ main {
 #hero {
     width: 90%;
     margin: 0 auto;
-    background: url(../images/henryVIII-hero.jpg) no-repeat center center/cover;
-    height: 600px;
-    position: relative;
+    background: url(../images/henryVIII-hero.jpg) no-repeat center center;
+    height: 450px;
+    display: block;
 }
 
 #title-overlay {
@@ -103,6 +104,12 @@ main {
     text-align: center;
 }
 
+#about {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
 
 /* Footer Styling*/
 footer {
