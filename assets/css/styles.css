@@ -121,7 +121,7 @@ main {
     text-align: center;
 }
 
-#tudor-rose {
+.tudor-rose {
     background-image: url(../images/tudor-rose.png);
     background-repeat: no-repeat;
     background-size: 32px 32px;
@@ -136,6 +136,22 @@ main {
 footer {
     background-color: rgb(128, 0, 32);
     color: rgb(196, 202, 208);
+}
+
+#social-links {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-links a {
+    color: inherit;
+    font-size: 200%;
+}
+
+#social-links a:hover {
+    color: rgb(53, 57, 53);
 }
 
 @media screen and (min-width: 768px) {
