@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Space Grotesk', sans-serif;
+    color: rgb(53, 57, 53)
 }
 
 /* Header Styling*/
@@ -105,10 +106,31 @@ main {
 }
 
 #about {
+    width: 90%;
     margin: 20px auto;
-    padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.page-description {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#tudor-rose {
+    background-image: url(../images/tudor-rose.png);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    background-position: center;
+    border: 0;
+    height: 30px;
     display: block;
+    margin: 10px 0;
 }
 
 /* Footer Styling*/
@@ -166,4 +188,7 @@ footer {
         right: 40%;
     }
 
+    #about {
+        flex-direction: row;
+    }
 }
