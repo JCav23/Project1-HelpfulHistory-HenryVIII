@@ -21,7 +21,7 @@ header {
     color: rgb(196, 202, 208);
     padding: 0 1rem;
     z-index: 5;
-    box-shadow: 0 5px 5px rgb(196, 202, 208);
+    box-shadow: 0 5px 5px rgb(53, 57, 53);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -81,11 +81,13 @@ main {
     /* Ensure header wont cover content */
     margin-top: 75px;
     display: flex;
+    background-color: rgb(248, 244, 255);
 }
 
 /* Hero Image */
 #hero {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     background: url(../images/henryVIII-hero.jpg) no-repeat center center/cover;
     height: 600px;
     position: relative;
