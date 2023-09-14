@@ -167,10 +167,15 @@ main {
     flex-direction: column;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .submit {
     max-height: 50px;
     padding: 10px 30px;
-    margin: 5px 5px;
     background-color: rgb(196, 202, 208);
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
