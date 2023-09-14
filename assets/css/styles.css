@@ -70,7 +70,7 @@ nav {
     display: block;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 28px;
     margin: 20px auto;
