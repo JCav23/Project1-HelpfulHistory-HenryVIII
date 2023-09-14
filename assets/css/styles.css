@@ -121,6 +121,7 @@ main {
     text-align: center;
 }
 
+/* class to style a hr element as a tudor rose image*/
 .tudor-rose {
     background-image: url(../images/tudor-rose.png);
     background-repeat: no-repeat;
