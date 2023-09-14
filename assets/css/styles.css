@@ -70,6 +70,7 @@ nav {
     display: block;
 }
 
+/* Styling for all headings*/
 h1, h2, h3 {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 28px;
@@ -131,6 +132,34 @@ main {
     height: 30px;
     display: block;
     margin: 10px 0;
+}
+
+#feedback {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback-form {
+    color: rgb(196, 202, 208);
+    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: rgb(128, 0, 32);
+    border-radius: 5%;
+}
+
+.form-text {
+    background: transparent;
+    border: 2px solid rgb(196, 202, 208)
+}
+
+.radio {
+    margin: 5px
+}
+
+#portrait {
+    margin: 20px auto;
 }
 
 /* Footer Styling*/
@@ -210,5 +239,9 @@ footer {
 
     .page-description{
         width: 50%;
+    }
+
+    #feedback {
+        flex-direction: row;
     }
 }
