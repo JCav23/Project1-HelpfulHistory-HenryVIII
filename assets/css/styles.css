@@ -122,6 +122,15 @@ main {
     text-align: center;
 }
 
+.page-description a {
+    text-decoration: none;
+    color: rgb(53, 57, 53);
+}
+
+.page-description a:hover {
+    color: rgb(128, 0, 32);
+}
+
 /* class to style a hr element as a tudor rose image*/
 .tudor-rose {
     background-image: url(../images/tudor-rose.png);
