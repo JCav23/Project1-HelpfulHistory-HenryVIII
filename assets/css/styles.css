@@ -142,6 +142,15 @@ main {
     display: block;
     margin: 10px 0;
 }
+
+/* Styling for the Wives page*/
+#wives {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
 /* Styling for the feedback page*/
 #feedback {
     width: 95%;
@@ -296,5 +305,9 @@ footer {
     .form-section {
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .wife {
+        display: flex;
     }
 }
