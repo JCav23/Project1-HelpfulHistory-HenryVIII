@@ -327,6 +327,10 @@ footer {
 
 /* Breakpoint for Tablet Screen Styling*/
 @media screen and (min-width: 1025px) {
+    p {
+        font-size: 130%;
+    }
+
     .wife img {
         width: 360px;
         height: 450px;
