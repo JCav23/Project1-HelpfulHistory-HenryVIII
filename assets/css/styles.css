@@ -311,11 +311,18 @@ footer {
     /* Responsive Styles for alternating sides of screen for wife portraits*/
     .wife {
         display: flex;
+        margin: 40px 0;
+        align-items: center;
     }
 
     .wife-even {
         flex-direction: row-reverse;
     }
+    .wife img {
+        width: 310px;
+        height: 390px;
+    }
+
 }
 
 /* Breakpoint for Tablet Screen Styling*/
@@ -324,4 +331,5 @@ footer {
         width: 360px;
         height: 450px;
     }
+
 }
