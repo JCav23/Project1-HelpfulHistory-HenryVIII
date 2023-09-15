@@ -236,6 +236,7 @@ footer {
     color: rgb(53, 57, 53);
 }
 
+/* Breakpoint for Tablet screen styling*/
 @media screen and (min-width: 768px) {
     /* Navbar downdown adjusted for larger screens*/
     nav {
@@ -307,11 +308,20 @@ footer {
         justify-content: space-around;
     }
 
+    /* Responsive Styles for alternating sides of screen for wife portraits*/
     .wife {
         display: flex;
     }
 
     .wife-even {
         flex-direction: row-reverse;
+    }
+}
+
+/* Breakpoint for Tablet Screen Styling*/
+@media screen and (min-width: 1025px) {
+    .wife img {
+        width: 360px;
+        height: 450px;
     }
 }
