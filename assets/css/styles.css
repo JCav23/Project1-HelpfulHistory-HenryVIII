@@ -309,7 +309,7 @@ footer {
     }
 
     /* Responsive Styles for alternating sides of screen for wife portraits*/
-    .wife {
+    .wife, .palace {
         display: flex;
         margin: 40px 0;
         align-items: center;
