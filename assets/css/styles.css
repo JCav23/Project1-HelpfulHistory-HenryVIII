@@ -310,4 +310,8 @@ footer {
     .wife {
         display: flex;
     }
+
+    .wife-even {
+        flex-direction: row-reverse;
+    }
 }
