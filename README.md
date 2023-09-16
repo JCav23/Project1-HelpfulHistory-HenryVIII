@@ -1,62 +1,71 @@
 # Helpful History
 
-Helpful History is designed to be a friendly and informative series of websites each dedicated to providing a source of informative and interesting information about key historical figures. This project is the first entry in the series and is focused on one of the most memorable rulers in the English monarchy, Henry VIII. The site aims to provide information about some of the most famous aspects of his life including his six wives, and his life at hampton court palace.
+Helpful History is designed to be a friendly and informative series of websites each dedicated to providing a source of informative and interesting information about key historical figures. This project is the first entry in the series and is focused on one of the most memorable rulers in the English monarchy, Henry VIII. 
 
-![Responsice Mockup](https://ui.dev/amiresponsive?url=https://jcav23.github.io/Project1-HelpfulHistory-HenryVIII/index.html)
+The site aims to provide information to people of all ages about some of the most famous aspects of his life including his six wives, and his life at Hampton Court Palace. Also included is a feedback page where users are able to leave reviews of the site and suggest any improvements or make requests on who they would like to see in future entries.
+
+![Responsice Mockup](/assets/readme-images/responsive-mockup.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __Navigation Bar__
+#### Navigation Bar
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all four pages of the site, the navigation bar is a fully responsive dropdown menu including links the Home, Life at Hampton Court, Wives of Henry VIII, and Feedback pages.
+  - Position of the navigation link elements changes from vertically to horizontally on larger screens to keep the display visually appealing on larger screens while still retaining the dropdown function.
+  - This will allow the user to navigate easily between different pages on the site without having to revert to a previous page using the back button.
+  
+- __Mobile Nav Bar__
+  
+![Open Mobile Nav Bar](/assets/readme-images/mobile-nav.png)
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+- __Desktop Nav Bar (Open)__
 
-- __The landing page image__
+![Open Desktop Nav Bar](/assets/readme-images/desktop-nav-open.png)
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- __Desktop Nav Bar (Closed)__
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Open Desktop Nav Bar](/assets/readme-images/desktop-nav-closed.png)
 
-- __Club Ethos Section__
+#### Landing Page
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- __landing page hero image__
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The landing includes an image of artwork depicting Henry VIII with title text overlay to provide and eye-catching display while clearly defining what the website is focused on. 
+  - This section introduces the user to Helpful History: Henry VIII with an eye catching piece of artwork to grab their attention
 
-- __Meetup Times section__
+![Landing Page](/assets/readme-images/landing-hero.png)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- __About Us__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - The About Us section will welcome the user and explain the concept of Helpful History, introduce this first entry explaining the focus and structure of the website.
+  - This should clearly convey the core information of the website and provide the user any direction needed to what they can hope to find on the website.
+  - This section also contains the contents of the other content pages outlining the information in each section with navigation elements in each heading. 
 
-- __The Footer__ 
+![About Us](assets/readme-images/about-us.png)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- __Footer__ 
+
+  - The footer section includes social media links to each of the four main social media platforms. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and keep up to date about future releases.
+  - The footer is available across all pages on the site to maintain the theming and style across the website. 
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+#### Life at Hampton Court
+
+  - This page features an offical video from the Historic Royal Palaces, an independant chairty that manages some of the UK's unoccupied Palaces. This will provide the user with a piece informative and entertaining media to give them an enjoyable experience visiting the site. 
+  - This section also contains some text content providing more detail about the king's life at the palace so that the site is still informative should the user be unable/not wish to use the video player.
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+#### Wives of Henry VIII
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -89,9 +98,6 @@ If this section grows too long, you may want to split it off into a separate fil
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
