@@ -174,6 +174,3 @@ The live link can be found here - https://jcav23.github.io/Project1-HelpfulHisto
 - The Video was created by Historic Royal Palaces and was accesed from Youtube. However this project is intended for educational purposes only and not designed for profit. 
 - The hero image was retrieved from Wikipedia and depicts the 16th Century painting The Family of Henry VIII and is in the public domain
 - The portrait of Henry VIII on the feedback page was retrieved from Wikipedia and again is in the public domain.
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
