@@ -159,6 +159,8 @@ The live link can be found here - https://jcav23.github.io/Project1-HelpfulHisto
 
 ## Credits 
 
+The general structure and certain elements were inspired by the workable examples found within the course content such as Love Running, and Coder's Coffeehouse but expanded and implemented slightly different to demonstrate my understand of the techniques. W3 schools was also used extensively to reference various rules, attributes, properties and syntax.
+
 ### Content 
 
 - Much of the information was gathered from [History.com](https://www.history.com/news/henry-viii-wives)
