@@ -4,7 +4,7 @@ Helpful History is designed to be a friendly and informative series of websites 
 
 The site aims to provide information to people of all ages about some of the most famous aspects of his life including his six wives, and his life at Hampton Court Palace. Also included is a feedback page where users are able to leave reviews of the site and suggest any improvements or make requests on who they would like to see in future entries.
 
-![Responsice Mockup](/assets/readme-images/responsive-mockup.png)
+![Responsice Mockup](./assets/readme-images/responsive-mockup.png)
 
 ## Features 
 
@@ -18,15 +18,15 @@ The site aims to provide information to people of all ages about some of the mos
   
 - __Mobile Nav Bar__
   
-![Open Mobile Nav Bar](/assets/readme-images/mobile-nav.png)
+![Open Mobile Nav Bar](./assets/readme-images/mobile-nav.png)
 
 - __Desktop Nav Bar (Open)__
 
-![Open Desktop Nav Bar](/assets/readme-images/desktop-nav-open.png)
+![Open Desktop Nav Bar](./assets/readme-images/desktop-nav-open.png)
 
 - __Desktop Nav Bar (Closed)__
 
-![Open Desktop Nav Bar](/assets/readme-images/desktop-nav-closed.png)
+![Open Desktop Nav Bar](./assets/assets/readme-images/desktop-nav-closed.png)
 
 #### Landing Page
 
@@ -35,7 +35,7 @@ The site aims to provide information to people of all ages about some of the mos
   - The landing includes an image of artwork depicting Henry VIII with title text overlay to provide and eye-catching display while clearly defining what the website is focused on. 
   - This section introduces the user to Helpful History: Henry VIII with an eye catching piece of artwork to grab their attention
 
-![Landing Page](/assets/readme-images/landing-hero.png)
+![Landing Page](./assets/readme-images/landing-hero.png)
 
 - __About Us__
 
@@ -43,7 +43,7 @@ The site aims to provide information to people of all ages about some of the mos
   - This should clearly convey the core information of the website and provide the user any direction needed to what they can hope to find on the website.
   - This section also contains the contents of the other content pages outlining the information in each section with navigation elements in each heading. 
 
-![About Us](assets/readme-images/about-us.png)
+![About Us](./assets/readme-images/about-us.png)
 
 - __Footer__ 
 
@@ -51,7 +51,7 @@ The site aims to provide information to people of all ages about some of the mos
   - The footer is valuable to the user as it encourages them to keep connected via social media and keep up to date about future releases.
   - The footer is available across all pages on the site to maintain the theming and style across the website. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](./assets/readme-images/footer.png)
 
 #### Life at Hampton Court
 
