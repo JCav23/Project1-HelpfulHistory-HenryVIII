@@ -58,14 +58,14 @@ The site aims to provide information to people of all ages about some of the mos
   - This page features an offical video from the Historic Royal Palaces, an independant chairty that manages some of the UK's unoccupied Palaces. This will provide the user with a piece informative and entertaining media to give them an enjoyable experience visiting the site. 
   - This section also contains some text content providing more detail about the king's life at the palace so that the site is still informative should the user be unable/not wish to use the video player.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery]()
 
 #### Wives of Henry VIII
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Wives Page](./assets/readme-images/wives.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -88,8 +88,19 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing 
 
+The HTML and CSS code were passed through the official W3C and Jigsaw Validators respectively and the results are outlined below
+
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Landing Page
+    - __NOTE:__ One warning was returned due to the H1 element being located within a div on landing page, I have chosen to keep this as it is for stylization purposes and still serve its intended purpose as a top level heading.
+  - Wives Page
+    - Passed with no errors or warnings
+  - Hampton Court Page
+
+  - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  
+
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
