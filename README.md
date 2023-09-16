@@ -94,8 +94,10 @@ The HTML and CSS code were passed through the official W3C and Jigsaw Validators
   - Landing Page
     - __NOTE:__ One warning was returned due to the H1 element being located within a div on landing page, I have chosen to keep this as it is for stylization purposes and still serve its intended purpose as a top level heading.
   - Wives Page
-    - Passed with no errors or warnings
+    - Passed with no errors
   - Hampton Court Page
+    - Returned error due to frameborder property being deprecated, the error was then removed accordingly.
+    - Returned error due to using a percentage value for width within the two iframe's as this was the same technique demonstrated within the Coder's Coffeehouse example I believed it to be acceptable.
 
   - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   
