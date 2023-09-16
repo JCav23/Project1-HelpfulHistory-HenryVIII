@@ -77,13 +77,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Most bugs were dealt with during development as outlined in the Git Commit logs, most bugs were attributed to misspellings and fixed accordingly, this included the social media links styled incorrectly on the Wives page. Another such bug was found where the feedback form was not accepting values in the name or email input sections. This was attributed to an oversight when writing the code and the Name attribute had been accidently omitted, however this was acknowldged and adjusted. The form was then tested successfully 
 
 
 ### Validator Testing 
@@ -98,17 +92,18 @@ The HTML and CSS code were passed through the official W3C and Jigsaw Validators
   - Hampton Court Page
     - Returned error due to frameborder property being deprecated, the error was then removed accordingly.
     - Returned error due to using a percentage value for width within the two iframe's as this was the same technique demonstrated within the Coder's Coffeehouse example I believed it to be acceptable.
+  - Feedback
+    - Returned error due to the rows attribute was incorrectly spelt, this was changed appropriately and code passed without error. 
 
+  - [Valid HTML](./assets/readme-images/html-valid.png)
   - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   
 
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - Stylesheet returned no error when passed through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
